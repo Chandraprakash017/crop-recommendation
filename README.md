@@ -107,3 +107,18 @@ python scripts/add_validation.py
 Predictions depend on the quality and coverage of the
 training dataset. Recommendations should not be treated
 as a substitute for local agricultural expertise.
+
+
+
+## Application Preview
+
+![Crop Recommendation Dashboard](. /var/folders/st/2mh080zd0txgmssd56lkpnzw0000gn/T/TemporaryItems/NSIRD_screencaptureui_RyNdur/Screenshot 2026-10-30 at 7.00.16 PM.png )
+
+## How to Run Locally
+
+1. Clone the repository.
+2. Create and activate a Python virtual environment.
+3. Install dependencies using `pip install -r requirements.txt`.
+4. Ensure MongoDB is running locally.
+5. Import the dataset and train the model using the scripts in `scripts/`.
+6. Start the application using `streamlit run app.py`.
